@@ -35,11 +35,13 @@ Observação: o projeto usa o SweetAlert2 via CDN, então é recomendado estar c
 
 ## Regras usadas no código (resumo)
 ### INSS (tabela progressiva)
-- Faixa 1: até R$ 1.621,00 -> 7,5%
-- Faixa 2: até R$ 2.902,84 -> 9%
-- Faixa 3: até R$ 4.354,27 -> 12%
-- Faixa 4: acima disso -> 14%
+- Faixa 1: até R$ 1.621,00 &rarr; 7,5%
+- Faixa 2: até R$ 2.902,84 &rarr; 9%
+- Faixa 3: até R$ 4.354,27 &rarr; 12%
+- Faixa 4: acima disso &rarr; 14%
 - Teto considerado: R$ 8.475,55
+
+![Cálculo do INSS](img/exemplo-calculo-inss.png "Exemplo de como é efetuado o cálculo do INSS")
 
 ### IRRF (após desconto do INSS)
 - O cálculo usa faixas com dedução.
